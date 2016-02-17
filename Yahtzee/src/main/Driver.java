@@ -15,7 +15,6 @@ public class Driver {
 		}
 		int amount = temp;
 		System.out.println("How many sides?");
-		System.out.p
 		temp = readIn("sides");
 		if (temp == 0) {
 			return;
