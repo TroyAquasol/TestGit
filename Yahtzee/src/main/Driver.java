@@ -15,6 +15,7 @@ public class Driver {
 		}
 		int amount = temp;
 		System.out.println("How many sides?");
+		System.out.p
 		temp = readIn("sides");
 		if (temp == 0) {
 			return;
@@ -72,9 +73,9 @@ public class Driver {
 					System.out.println(" ");
 					System.out.println(" ");
 					System.out.println(" ");
-					Thread.sleep(7000);
-					System.out.println("Fuck you.");
-					Thread.sleep(3000);
+//					Thread.sleep(7000);
+//					System.out.println("Fuck you.");
+//					Thread.sleep(3000);
 					System.err.println("Program Terminated");
 					return 0;
 				}
